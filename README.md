@@ -53,8 +53,8 @@ jutranchi-clean/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Techniva/jutwebsite.git
-   cd jutwebsite
+   git clone https://github.com/Techniva/jutranchi_test.git
+   cd jutranchi_test
    ```
 
 2. **Install dependencies**
