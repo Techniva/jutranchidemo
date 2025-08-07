@@ -12,7 +12,7 @@ A modern, responsive website for JUT (Jharkhand University of Technology) Ranchi
 
 ## 🛠️ Tech Stack
 
-- **Framework**: Next.js 14
+- **Framework**: Next.js 15.4.6
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
 - **Icons**: Lucide React
