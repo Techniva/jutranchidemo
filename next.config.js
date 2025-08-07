@@ -1,15 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Configuration for GitHub Pages deployment
-  basePath: process.env.NODE_ENV === 'production' ? '/jutranchi_test' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/jutranchi_test/' : '',
-  // Disable image optimization for static export
+  // Optimized for Vercel deployment
   images: {
-    unoptimized: true,
+    domains: ['localhost'],
+    unoptimized: false,
   },
-  // Enable static export for GitHub Pages
-  output: 'export',
-  trailingSlash: true,
+  // Compiler options for better optimization
+  compiler: {
+    removeConsole: process.env.NODE_ENV === 'production',
+  },
 }
 
 module.exports = nextConfig 
