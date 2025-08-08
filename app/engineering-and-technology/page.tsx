@@ -1,6 +1,6 @@
 'use client'
 
-import { Header, Footer } from '@/components'
+import { Header, Footer } from '@/app/components'
 import { Settings, Briefcase, Lightbulb, Monitor, Video, GraduationCap, Users, BookOpen, Target, Award } from 'lucide-react'
 
 export default function EngineeringAndTechnology() {
@@ -14,7 +14,7 @@ export default function EngineeringAndTechnology() {
           <div
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
             style={{
-              backgroundImage: 'url(/tech_park.jpg)', // Added background image
+              backgroundImage: 'url(/jut-2.png)', // Added background image
               backgroundSize: 'cover',
               backgroundPosition: 'center'
             }}

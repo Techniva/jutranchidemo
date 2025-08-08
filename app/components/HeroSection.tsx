@@ -9,7 +9,7 @@ export default function HeroSection() {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url(/jut.webp)',
+          backgroundImage: 'url(/jut-1.png)',
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}

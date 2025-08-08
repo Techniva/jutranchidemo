@@ -131,7 +131,7 @@ export default function Header() {
                   </button>
                   {isAcademicsOpen && (
                     <div 
-                      className="absolute top-full left-0 right-0 mt-0 left-[-727px] w-[1440px] bg-white shadow-2xl opacity-100 visible transition-all duration-300 border-t-4 border-[#0c4da2]"
+                      className="absolute top-full right-0 mt-0 left-[-727px] w-[1440px] bg-white shadow-2xl opacity-100 visible transition-all duration-300 border-t-4 border-[#0c4da2]"
                       onMouseEnter={() => setIsAcademicsOpen(true)}
                       onMouseLeave={() => setIsAcademicsOpen(false)}
                     >
@@ -297,7 +297,7 @@ export default function Header() {
                   </button>
                   {isResearchOpen && (
                     <div 
-                      className="absolute top-full left-0 right-0 mt-0 left-[-860px] w-[1440px] bg-white shadow-2xl opacity-100 visible transition-all duration-300 border-t-4 border-[#0c4da2]"
+                      className="absolute top-full right-0 mt-0 left-[-860px] w-[1440px] bg-white shadow-2xl opacity-100 visible transition-all duration-300 border-t-4 border-[#0c4da2]"
                       onMouseEnter={() => setIsResearchOpen(true)}
                       onMouseLeave={() => setIsResearchOpen(false)}
                     >

@@ -41,7 +41,7 @@ export default function VideoBackground() {
         loop
         playsInline
         className="w-full h-full object-cover"
-        poster="/jut.webp"
+        poster="/jut-1.png"
       >
         <source src="/jut-video.mp4" type="video/mp4" />
         <source src="/jut-video.webm" type="video/webm" />

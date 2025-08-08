@@ -7,7 +7,7 @@ import {
   ProgramsSection,
   NewsEventsSection,
   Footer
-} from '@/components'
+} from '@/app/components'
 
 export default function Home() {
   return (
